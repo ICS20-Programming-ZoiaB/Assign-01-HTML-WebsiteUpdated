@@ -1,0 +1,22 @@
+/* Created by: ZoiaB
+*Created on: Feb 2023
+*This CSS file defines the style for index.html
+*Assign-01-HTML-Website
+*/
+
+body {
+  background-color: #cebdd6;
+}
+
+h2 {
+  background-color: skyblue;
+  color: hsl(326, 24%, 39%);
+  padding: 40px;
+  text-align: center;
+}
+
+p {
+  background-color: #e6e6e6;
+  color: hsl(326, 24%, 39%);
+  text-align: center;
+}

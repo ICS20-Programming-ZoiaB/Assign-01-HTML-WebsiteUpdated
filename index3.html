@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <!-- Meta data -->
+    <meta charset="utf-8">
+    <meta name="description" content="My Unit 1 Major Assignment">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="ZoiaB">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./css/style3.css">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./fav_index/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav_index/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav_index/android-chrome-192x192.png">
+    <link rel="./fav_index/android-chrome-192x192.png" href="./fav_index/android-chrome-192x192.png">
+
+    <!-- Google's MDL Fonts and Colors -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-indigo.min.css" />
+
+    <!-- MDL Progress Bar with Buffering -->
+    <div id="p3" class="mdl-progress mdl-js-progress"></div>
+    <script>
+  document.querySelector('#p3').addEventListener('mdl-componentupgraded', function() {
+    this.MaterialProgress.setProgress(33);
+    this.MaterialProgress.setBuffer(87);
+     });
+    </script>
+
+    <!-- Web page title -->
+    <title>Owls in Culture and Symbolism</title>
+  </head>
+  <body>
+
+    <!-- Google's MDL Components -->
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+    <!-- JavaScript function -->
+    <script>
+      function myButtonClicked() {
+        alert("I'm glad you enjoyed my website!")
+      }
+    </script>
+
+    <!-- Layout -->
+    <div>
+      <nav>
+      <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+          <!-- Title -->
+          <span class="mdl-layout-title">Owls</span>
+          <!-- Add spacer, to align navigation to the right -->
+          <div class="mdl-layout-spacer"></div>
+          <!-- Navigation. We hide it in small screens. -->
+          <nav class="mdl-navigation mdl-layout--large-screen-only">
+            <a class="mdl-navigation__link" href="./index.html">Home</a>
+            <a class="mdl-navigation__link" href="./index2.html">Types of Owls</a>
+            <a class="mdl-navigation__link" href="./index3.html">Owls in Culture and Symbolism</a>
+          </nav>
+        </div>
+      </header>
+      <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">Owls</span>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="./index.html">Home</a>
+          <a class="mdl-navigation__link" href="index2.html">Types of Owls</a>
+          <a class="mdl-navigation__link" href="./index3.html">Owls in Fulture and Symbolism</a>
+        </nav>
+      </div>
+      </nav>
+    </div>
+        
+    <!-- Container for web page content-->
+    <main class = "mdl-layout__content" style = "padding-left:20px; padding-right:20px;">
+
+      <!-- Web page header -->
+      <h2>Owls in Culture and Symbolism</h2>
+
+      <!-- Main text -->
+      <p>Some people view owls as highly spiritual creatures that are omens of either good or bad. Many people associate owls with wisdom; this is because the greek goddess of wisdom, Athena, is often depicted with an owl on her shoulder. However, the symbolism of owls varies throughout the world. In First Nations culture, owls are representatives of the spirits of deceased ancestors, because of their wisdom and aura of knowlege. However, in Japanese culture, owls are a sign of good luck, bringing good physical and mental health. In Ancient Egypt, owls were thought to be the guardians of the underworld; similarly, the Aztecs and Mayans warned that owls were an omen of death. As you see, the symbolism of owls varies quite a bit from culture to culture.</p>
+
+      <!-- Image --->
+      <center>
+      <img src="./images/owlsymbolism.jpg" width="400" length="500">
+      </center>
+      
+      <!-- MDL checkbox -->
+      <br></br>
+      <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-2">
+      <input type="checkbox" id="checkbox-2" class="mdl-checkbox__input">
+      <span class="mdl-checkbox__label">Check this if you learned something you didn't know before!</span>
+      </label>
+      <br></br>
+      <p>Click the button below if you enjoyed this website!</p>
+
+      <!-- Colored icon button -->
+      <center>
+      <button onclick="myButtonClicked()" class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored">
+      <i class="material-icons">mood</i>
+      </button>
+      </center>
+
+      <!-- Radio Button -->
+      <p>Would you like to see another webpage similar to this one?</p>
+      <center>
+      <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
+        <input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1" checked>
+        <span class="mdl-radio__label">Yes</span>
+      </label>
+      </center>
+      <center>
+      <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
+        <input type="radio" id="option-2" class="mdl-radio__button" name="options" value="2">
+        <span class="mdl-radio__label">No</span>
+      </label>
+      </center>
+
+      <!-- Gif from Tenor -->
+      <center><div class="tenor-gif-embed" data-postid="25392153" data-share-method="host" data-aspect-ratio="1" data-width="20%"><a href="https://tenor.com/view/owl-ooooo-nice-awesome-great-gif-25392153">Owl Gif</a>from <a href="https://tenor.com/search/owl-stickers">Owl Stickers</a></div>
+      <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+      </center>
+      
+      <!-- Links to other web pages -->
+      <p>Here is the <a href = "https://www.owlresearchinstitute.org/owls-1">link to different page about owls.</a>
+      </p>
+      </p>
+    </main>
+  </body>
+</html>
