@@ -9,7 +9,7 @@ body {
 }
 
 h1 {
-  background-color: skyblue;
+  background-color: lightseagreen;
   color: hsl(326deg 24% 39%);
   padding: 40px;
   text-align: center;
@@ -19,4 +19,8 @@ p {
   background-color: #e6e6e6;
   color: hsl(326deg 24% 39%);
   text-align: center;
+}
+
+ul {
+        width: 300px;
 }
