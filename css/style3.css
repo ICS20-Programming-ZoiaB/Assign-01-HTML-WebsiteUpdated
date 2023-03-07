@@ -5,11 +5,11 @@
 */
 
 body {
-  background-color: rgb(160 154 167);
+  background-color: rgb(174, 159, 193);
 }
 
 h2 {
-  background-color: powderblue;
+  background-color: lightcyan;
   color: hsl(326deg 24% 39%);
   padding: 60px;
   text-align: center;
